@@ -15,8 +15,8 @@ function Contact() {
         </div>
         <div className="col" style={{ paddingLeft: '1rem' }}>
           <h3>The Cafe Location</h3>
-          <p style={{ color: '#555' }}>📍 789 Velvet Crema Boulevard, Suite 10</p>
-          <p style={{ color: '#555' }}>📞 Telephone: +1 (555) 432-8765</p>
+          <p style={{ color: '#555' }}>📍 Kharmanghat,Road.no 3,opp.of.vv appartments</p>
+          <p style={{ color: '#555' }}>📞 Telephone: 9876543201</p>
           <p style={{ color: '#555' }}>✉️ Email: contact@cafenoir.com</p>
           
           <h3 style={{ marginTop: '2rem' }}>Working Hours</h3>

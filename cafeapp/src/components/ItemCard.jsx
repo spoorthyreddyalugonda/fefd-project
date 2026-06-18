@@ -14,7 +14,7 @@ function ItemCard({ item }) {
         <p className="menu-desc">{item.desc}</p>
         <div className="card-action-row">
           {/* Updated syntax here */}
-          <span className="price">${item.price.toFixed(2)}</span>
+          <span className="price">₹{item.price.toFixed(2)}</span>
           <button className="add-btn" onClick={() => addToCart(item)}>
             Add to Cart
           </button>
