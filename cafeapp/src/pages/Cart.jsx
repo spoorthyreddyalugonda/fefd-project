@@ -54,11 +54,11 @@ function Cart() {
         <h3 style={{ marginTop: 0, borderBottom: '1px solid #eee', paddingBottom: '0.5rem' }}>Receipt Breakdown</h3>
         <div className="bill-row">
           <span>Items Subtotal:</span>
-          <span>${subtotal.toFixed(2)}</span>
+          <span>₹{subtotal.toFixed(2)}</span>
         </div>
         <div className="bill-row">
           <span>Estimated EST Tax (8%):</span>
-          <span>${estimatedTax.toFixed(2)}</span>
+          <span>₹{estimatedTax.toFixed(2)}</span>
         </div>
         <div className="bill-row" style={{ fontWeight: 'bold', fontSize: '1.25rem', paddingTop: '0.5rem', borderTop: '2px solid #1e110a' }}>
           <span>Grand Total:</span>
